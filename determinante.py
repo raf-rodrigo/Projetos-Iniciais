@@ -15,6 +15,7 @@ for l in range(0, m):
     for c in range(0, m):
             print(f'{matriz[l][c]:^6}', end='')
     print()
+print('\033[34m~'*40, '\033[m')
 #calculo do determinandte
 #multiplicando as diagonais
 
