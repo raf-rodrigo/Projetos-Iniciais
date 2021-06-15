@@ -17,8 +17,6 @@ for l in range(0, m):
     print()
 #calculo do determinandte
 #multiplicando as diagonais
-'''i = j = 0
-for l in range(0, m):
-    for c in range(0, m):'''
+
 
 
