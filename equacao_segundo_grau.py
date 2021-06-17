@@ -1,4 +1,3 @@
-from matplolib import pyplot
 print('Vamos calcular as raizes da equação de 2 grau')
 print('Lembrando que a equação tem a forma de: ax²+bx+c=0')
 a = int(input('Digite o valor de a: '))
@@ -61,7 +60,6 @@ if a != 0:
         print(f'A raiz da equação é: {x}')
     if delta < 0:
         print('Não existe solução em reais.')
-    
 else:
     print('Você não digitou uma equação de 2° grau.')
     print('Finalizando....')
