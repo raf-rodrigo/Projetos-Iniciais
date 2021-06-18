@@ -7,41 +7,41 @@ if a != 0:
     if b > 0:
         if c > 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² + {b}x + {c} = 0'.center(40))
         elif c == 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² + {b}x = 0'.center(40))
         elif c < 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² + {b}x {c} = 0'.center(40))
     if b == 0:
         if c > 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² + {c} = 0'.center(40))
         elif c == 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² = 0'.center(40))
         elif c < 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² {c} = 0'.center(40))
     if b < 0:
         if c > 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² {b}x + {c} = 0'.center(40))
         elif c == 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² {b}x = 0'.center(40))
         elif c < 0:
             print('\033[34m-='*20)
-            print('Sua é quação é:'.center(40))
+            print('Sua equação é:'.center(40))
             print(f'{a}x² {b}x {c} = 0'.center(40))
     print('-='*20, '\033[m')
     delta = b**2 - (4*a*c)
@@ -50,7 +50,7 @@ if a != 0:
     xn = -(b/(2 * (a)))
     yn = -((delta)/ (4 * (a)))
     if delta > 0:
-        print('Sua equanção tem duas raizes reais.')
+        print('Sua equação tem duas raizes reais.')
         x1 = (-(b) + delta**(1/2)) / (2*(a))
         x2 = (-(b) - delta**(1/2)) / (2*(a))
         print(f'As raizes da equação são: {x1} e {x2}')
