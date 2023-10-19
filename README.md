@@ -1,2 +1,2 @@
 # Projetos Iniciais
- Aqui ficará meus projetos iniciais.
+ Aqui ficará meus projetos iniciais em Python.
